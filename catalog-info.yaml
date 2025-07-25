@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: zulip
+  description: Zulip team chat platform
+  tags:
+    - devops
+    - chat
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
